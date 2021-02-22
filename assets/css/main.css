@@ -72,6 +72,20 @@ input, select, textarea {
 	appearance: none;
 }
 
+
+
+@font-face {
+	font-family: 'paybooc-Bold';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/paybooc-Bold.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+body, input, textarea, select {!important; font-family:'페이스북채', 'paybooc-Bold', paybooc-Bold;}
+h1, h2, h3, h4, h5, h6, .heading{!important; font-family:'페이스북채', 'paybooc-Bold', paybooc-Bold;}
+
+
 /* Basic */
 
 	@-ms-viewport {
